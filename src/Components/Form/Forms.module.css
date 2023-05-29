@@ -1,0 +1,177 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  position: relative;
+  font-family: 'Roboto';
+  color: #3C4852;
+  right: -300px;
+}
+ .head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+ }
+ .button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin: 50px;
+ 
+ }
+ .button img{
+   width: 40px;
+   margin-bottom: 20px;
+ }
+ .plan{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3C4852;
+ }
+ #name{
+  border: 1px solid #BEBEBE ;
+  margin: 5px;
+  padding: 20px;
+  justify-content: left;
+  align-items: center;
+ 
+  width: 90%;
+  position: relative;
+ }
+ #name:hover{
+  border: 2px solid #47BA68;
+  background-color: #d9f4e0;
+ }
+ #name input{
+accent-color:#47BA68 ;
+
+ }
+
+ 
+ .totalRupees{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: self-end;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #3C4852;
+ }
+ .totalRupees .rs{
+  margin: 0;
+ }
+ .month{
+  font-size: small;
+  color: #3c485295;
+ }
+ .expired_flag p{
+  background-color: #F77171;
+  color: white;
+  width: 100px;
+  height: 16px;
+  font-size: small;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  position: absolute;
+  top: 145px;
+  left: 100px;
+  
+ }
+ .recommend_flag p{
+  background-color: #47BA68;
+  color: white;
+  width: 100px;
+  height: 16px;
+  font-size: small;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  position: absolute;
+  top: 218px;
+  left: 100px;
+  
+ }
+ .subscription_Container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+
+  
+ }
+ hr{
+  font-weight: 600;
+ }
+.limited{
+  border: 2px solid #DE4313 ;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+border-radius: 8px;
+  color: #DE4313;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 50px;
+}
+.limited1{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.limited2{
+  display: flex;
+  padding: 5px;
+}
+.limited2 img{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  color: #DE4313;
+  
+
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: #3c4852cc;
+}
+.btn{
+  display: flex;
+  width: 100%;
+}
+.cancel{
+  border: 2px solid #F77171;
+  width: 200px;
+height: 56px;
+color:#F77171 ;
+background-color: white;
+border-radius: 4px;
+margin: 10px;
+}
+.pay{
+  width: 200px;
+  height: 56px;
+  background: #47BA68;
+border-radius: 4px;
+color: white;
+margin: 10px;
+border: none;
+
+
+}
+.razorContainer{
+  width: 90%;
+  justify-content: flex-start;
+}
